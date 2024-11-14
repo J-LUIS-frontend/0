@@ -1,0 +1,131 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #333;
+}
+
+.phone-frame {
+    /* Simula un teléfono móvil */
+    width: 360px;
+    height: 640px;
+    background: #fff;
+    margin: 50px auto;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.phone-background {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Container Styles */
+.container {
+    width: 100%;
+    padding: 10px;
+}
+
+/* Header Icon */
+.icon-menu {
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+/* Camera Section */
+.camera-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.icon-camera {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.camera-button {
+    background-color: #0A285F;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+.camera-button:hover {
+    background-color: #083A7D;
+}
+
+/* History Section */
+.history-list h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+}
+
+.history-item {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.color-box {
+    margin-top: 10px;
+}
+
+.color-list {
+    list-style: none;
+}
+
+.color-list li {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.color-list li span {
+    font-weight: bold;
+}
+
+.color-list button {
+    background-color: #0A285F;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.color-list button:hover {
+    background-color: #083A7D;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
